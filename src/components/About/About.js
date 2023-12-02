@@ -1,6 +1,8 @@
 // src/components/About/About.js
 import React from 'react';
 import './About.css'; // Import the CSS file for About component
+import { FaLinkedin } from "react-icons/fa";
+
 
 const About = () => {
   return (
@@ -16,8 +18,8 @@ const About = () => {
           </p>
         </div>
         <div className="buttons">
-          <a href="https://www.linkedin.com/in/haripriya-bellamkonda-ab3b5a22b/" target="_blank" rel="noopener noreferrer">
-            LinkedIn
+          <a href="https://www.linkedin.com/in/haripriya-bellamkonda-ab3b5a22b/" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center' }}>
+          <FaLinkedin style={{ marginRight: '5px' }} /> LinkedIn 
           </a>
         </div>
       </div>
