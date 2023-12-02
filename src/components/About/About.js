@@ -10,7 +10,7 @@ const About = () => {
           <h2>Hi,My name is Haripriya</h2>
           <p>
             Welcome to my portfolio! I am a passionate and dedicated individual with expertise in
-            front-end and back-end technologies. With a strong foundation in computer science and hands-on
+            front-end and back-end technologies.In addition to this,I have cultivated a foundational understanding of AI and ML concepts. With a strong foundation in computer science and hands-on
             experience in various programming languages, I am always eager to learn and adapt to new
             challenges.
           </p>
