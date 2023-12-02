@@ -9,7 +9,9 @@
     line-height: 1.6;
     font-size: 20px;
   }
- /* src/components/About/About.css */
+  .about-heading{
+    color:#ffcc00;
+  }
 .about-container{
     display: inline-block;
 
