@@ -1,51 +1,67 @@
 /* src/components/Skills/Skills.css */
+
 #skills {
-    background-color: #333;
-    color: #fff;
-    padding: 50px;
-    margin: 20px 0; /* Adjust margin as needed */
-    text-align: center;
-    font-size: 20px;;
-  }
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+  margin: 20px 0; /* Adjust margin as needed */
+  text-align: center;
+  font-size: 20px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap into a new row */
+  justify-content: center;
+  gap: 20px; /* Adjust the gap between boxes */
+  margin: 20px 0;
+}
+
+.h-skills {
+  color: #ffcc00;
+}
+
+.box {
+  background-color: #444;
+  border: 2px solid #ffcc00; /* Yellow border */
+  box-shadow: 0px 0px 10px 0px rgba(255, 204, 0, 0.75); /* Yellow shadow */
+  padding: 30px;
+  border-radius: 8px;
+  width: calc(33.33% - 100px); /* Set equal width and height for square shape, subtracting margin */
+  margin: 10px; /* Adjust margin between boxes */
+}
+
+.box h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.skills-ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap into a new row */
+  gap: 10px; /* Spacing between small boxes */
   
-  .skills-container {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin:20px 0;
-    
-  }
-  .h-skills{
-    color:#ffcc00;
-  }
-  
+}
+
+.skills-list {
+  font-size: 14px;
+  padding: 8px 12px;
+  background-color: #555; /* Small box background color */
+  border-radius: 5px;
+  background-color: #ffcc00; 
+  color: #000000; 
+}
+
+@media only screen and (max-width: 768px) {
   .box {
-    background-color: #444;
-    border: 2px solid #ffcc00; /* Yellow border */
-    box-shadow: 0px 0px 10px 0px rgba(255, 204, 0, 0.75); /* Yellow shadow */
-    padding: 30px;
-    border-radius: 8px;
-    width: 300px; /* Set equal width and height for square shape */
-    height: 300px;     
+      width: calc(50% - 20px);
   }
-  
-  .box h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .box {
+      width: 100%;
   }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap; /* Allow items to wrap into a new row */
-    gap: 10px; /* Spacing between small boxes */
-  }
-  
-  ul li {
-    font-size: 14px;
-    padding: 8px 12px;
-    background-color: #555; /* Small box background color */
-    border-radius: 5px;
-  }
-  
+}
