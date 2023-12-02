@@ -1,6 +1,8 @@
 import React from 'react';
 import './ContactMe.css'; // Create a corresponding CSS file for styling
-import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa'; // Import social media icons from React Icons
+import { FaLinkedin, FaGithub } from 'react-icons/fa'; // Import social media icons from React Icons
+import { MdEmail } from 'react-icons/md';
+
 
 const ContactMe = () => {
   return (
@@ -15,9 +17,10 @@ const ContactMe = () => {
         <a href="https://github.com/Haripriyabellamkonda" target="_blank" rel="noopener noreferrer">
           <FaGithub className="social-icon" />
         </a>
+        <a href="mailto:haripriyabellamkonda05@gmail.com">
+            <MdEmail className="social-icon" />
+        </a>
       </div>
-      <p>haripriyabellamkonda05@gmail.com</p>
-      {/* Add more contact information as needed */}
      
     </div>
     </section>
