@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav>
+    <nav className={`sticky-navbar ${showMenu ? 'show' : ''}`}>
       <ul className={`menu ${showMenu ? 'show' : ''}`}>
         <li>
           <Link to="about" smooth={true} duration={500} onClick={handleMenuClick}>
