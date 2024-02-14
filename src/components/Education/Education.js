@@ -11,7 +11,7 @@ const Education = () => {
       
       <div className="education-content">
        <p className='school-name'>Vellore Institue of Technology,Amaravati</p>
-        <p className='branch'>Bachelor of Technology - BTech, Computer Science and Engineering specilization in Artificial Intelligence and Machine Learning</p>
+        <p className='branch'>Bachelor of Technology - BTech, Computer Science and Engineering Specialization in Artificial Intelligence and Machine Learning</p>
         <p className='grade'>Grade: 8.99 CGPA</p>
         <p className='year'>Aug 2021- May 2025</p>
       </div>
@@ -20,7 +20,7 @@ const Education = () => {
       <div className="education-content">
       <p className='school-name'>Sri Chaintanya Junior college</p>
         <p className='branch'>Class XII MPC,(maths,physics,chemistry)</p>
-        <p className='grade'>Grade:96%</p>
+        <p className='grade'>Grade:96.6%</p>
         <p className='year'>Apr 2019-Apr 2021</p>
       </div>
     </div>
