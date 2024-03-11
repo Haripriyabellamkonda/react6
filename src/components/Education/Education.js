@@ -12,7 +12,7 @@ const Education = () => {
       <div className="education-content">
        <p className='school-name'>Vellore Institue of Technology,Amaravati</p>
         <p className='branch'>Bachelor of Technology - BTech, Computer Science and Engineering Specialization in Artificial Intelligence and Machine Learning</p>
-        <p className='grade'>Grade: 8.99 CGPA</p>
+        <p className='grade'>Grade: 9.06 CGPA</p>
         <p className='year'>Aug 2021- May 2025</p>
       </div>
     </div>
