@@ -18,7 +18,7 @@ const Education = () => {
     </div>
     <div className="education-box2">  
       <div className="education-content">
-      <p className='school-name'>Sri Chaintanya Junior college</p>
+      <p className='school-name'>Sri Chaitanya Junior college</p>
         <p className='branch'>Class XII MPC,(maths,physics,chemistry)</p>
         <p className='grade'>Grade:96.6%</p>
         <p className='year'>Apr 2019-Apr 2021</p>
