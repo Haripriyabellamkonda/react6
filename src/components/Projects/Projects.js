@@ -7,7 +7,7 @@ const projectsData = [
   { id: 3, title: 'Task Pilot', description: 'Task Pilot is a task management application built on the MERN stack This project was created by a team of 5 people during an MERN stack internship. I focused on UI development with React.js, handling API calls, and managing routing to create an intuitive and efficient platform for organizing and tracking tasks.' },
   { id: 4, title: 'Music Genre Classification' , description:'Worked on a music genre classification project using Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN) to automatically and accurately categorize songs into their appropriate genres, ensuring a reliable classification system.'},
   { id: 5, title: 'Product Recommendation Systems' , description:'Co-authored a research paper titled "Product Recommendation" with a professor, exploring machine learning algorithms for personalized product suggestions.
-Gained insights into recommendation systems through research and analysis on data preprocessing, user segmentation, and NLP techniques.'},
+Gained insights into recommendation systems through research and analysis on data preprocessing, user segmentation, and NLP techniques.'}
 
 ];
 
