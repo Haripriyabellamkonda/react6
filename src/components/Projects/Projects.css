@@ -71,3 +71,7 @@
   color: #fff;
   line-height:2;
 }
+
+.project-card p {
+  text-align: justify;
+}
