@@ -34,7 +34,7 @@ const Skills = () => {
   return (
     <section id="skills">
       <h1 className='h-skills'>Skills</h1>
-      <p>Here are some skills I have familiarized over the past two years:</p>
+      <p>Here are some skills I have familiarized over the past three years:</p>
       <div className="skills-container">
         <div className="box">
           <h2>Programming Languages</h2>
