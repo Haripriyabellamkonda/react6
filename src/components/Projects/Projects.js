@@ -6,8 +6,7 @@ const projectsData = [
   { id: 2, title: 'Smart Knee braces', description: 'This project was created to present in engineering clinics which monitors the deformations and movements of the knee and sends an alert to the user. This project was built as a college project with a team of 6 people where my responsibility was to manage and build the circuit with all connections set to proper and develop a mobile application using MIT App Inventor.' },
   { id: 3, title: 'Task Pilot', description: 'Task Pilot is a task management application built on the MERN stack This project was created by a team of 5 people during an MERN stack internship. I focused on UI development with React.js, handling API calls, and managing routing to create an intuitive and efficient platform for organizing and tracking tasks.' },
   { id: 4, title: 'Music Genre Classification' , description:'Worked on a music genre classification project using Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN) to automatically and accurately categorize songs into their appropriate genres, ensuring a reliable classification system.'},
-  { id: 5, title: 'Product Recommendation Systems' , description:'Co-authored a research paper titled "Product Recommendation" with a professor, exploring machine learning algorithms for personalized product suggestions.
-Gained insights into recommendation systems through research and analysis on data preprocessing, user segmentation, and NLP techniques.'}
+  { id: 5, title: 'Product Recommendation Systems' , description:'Co-authored a research paper titled "Product Recommendation" with a professor, exploring machine learning algorithms for personalized product suggestions.Gained insights into recommendation systems through research and analysis on data preprocessing, user segmentation, and NLP techniques.'}
 
 ];
 
