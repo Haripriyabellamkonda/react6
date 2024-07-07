@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <div>
         <section id = "education">
-        <h2 className="education-heading">Education</h2>
+        <h2 className="education-heading">Education</h2> 
   
     <div className="education-box">
       
